@@ -14,7 +14,7 @@ A Django-based web application for managing rental properties, connecting landlo
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/mahafuj-hasan-91/House-Rental-Management-System>
    cd house_rental_system
    ```
 
@@ -29,32 +29,29 @@ A Django-based web application for managing rental properties, connecting landlo
    pip install -r requirements.txt
    ```
 
-4. **Setup PostgreSQL**:
-   - Install PostgreSQL and create a database named `rental_db`.
-   - Update `house_rental/settings.py` with your database credentials.
 
-5. **Run migrations**:
+4. **Run migrations**:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
 
-6. **Load sample data**:
+5. **Load sample data**:
    ```bash
    python manage.py loaddata properties/fixtures/sample_data.json
    ```
 
-7. **Create a superuser**:
+6. **Create a superuser**:
    ```bash
    python manage.py createsuperuser
    ```
 
-8. **Run the server**:
+7. **Run the server**:
    ```bash
    python manage.py runserver
    ```
 
-9. **Access the app**:
+8. **Access the app**:
    - Open `http://localhost:8000` in your browser.
    - Admin panel: `http://localhost:8000/admin`.
 
